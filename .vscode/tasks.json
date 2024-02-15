@@ -4,11 +4,9 @@
         {
             "label": "runFlask",
             "type": "shell",
-            "command": "${workspaceFolder}/venv/bin/flask", // or path to flask in your virtual environment
+            "command": "${workspaceFolder}/.env/bin/flask", // or path to flask in your virtual environment
             "args": [
-                "run",
-                "--no-debugger",
-                "--no-reload"
+                "run"
             ],
             "group": "none",
             "problemMatcher": []
