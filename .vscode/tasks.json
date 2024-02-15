@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "runFlask",
+            "type": "shell",
+            "command": "${workspaceFolder}/venv/bin/flask", // or path to flask in your virtual environment
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
+            "group": "none",
+            "problemMatcher": []
+        }
+    ]
+}
